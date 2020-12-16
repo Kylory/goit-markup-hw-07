@@ -1,0 +1,37 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}

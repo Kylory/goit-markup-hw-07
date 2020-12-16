@@ -1,0 +1,150 @@
+.footer {
+  height: 252px;
+  background-color: #2f303a;
+
+  .container {
+    display: flex;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+
+.foorer-all-contacts {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-list {
+  width: 231px;
+  height: 81px;
+}
+
+.address-list .item {
+  font-style: normal;
+}
+
+.address-list .item + .item {
+  margin-top: 9px;
+}
+
+/* social-links-footer */
+.social-links-footer {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+  margin-top: 72px;
+  margin-bottom: 100px;
+}
+
+.social-links-footer .title {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.social-links-footer .links-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links-footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
+  transition: background-color 250ms var(--cubic-function);
+}
+
+.social-links-footer a:hover,
+.social-links-footer a:focus {
+  background-color: var(--blue-color);
+}
+
+/* Subscribe form */
+.subscribe {
+  width: 570px;
+  height: 86px;
+  margin-left: 93px;
+  margin-top: 72px;
+  margin-bottom: 94px;
+}
+
+.subscribe .title {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--white-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subscribe .form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.form .email {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.subscribe button {
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 50px;
+  background-color: var(--blue-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+  border-radius: 4px;
+
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.icon-send {
+  fill: var(--white-color);
+  margin-left: 10px;
+}

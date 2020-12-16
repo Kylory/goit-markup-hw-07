@@ -1,0 +1,35 @@
+/* Elements with display: flex */
+.nav,
+.links,
+.contacts,
+.benefits-content,
+.work-photo,
+.team-cards,
+.buttons,
+.portfolio-cards,
+.header .container {
+  display: flex;
+}
+
+.nav-link,
+.benefits-title,
+.work-title,
+.team-title,
+.team-name {
+  color: var(--title-color);
+}
+
+.contacts-header,
+.benefits-text,
+.team-employee {
+  color: var(--text-color);
+}
+
+.work-title,
+.team-title,
+.clients-title,
+.our-work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}

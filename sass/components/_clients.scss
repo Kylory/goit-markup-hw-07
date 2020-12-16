@@ -1,0 +1,33 @@
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+
+  &-title {
+    margin-bottom: 50px;
+  }
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.clients-list a {
+  width: 170px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+  transition: fill 250ms var(--cubic-function),
+    border-color 250ms var(--cubic-function);
+
+  &:hover,
+  &:focus {
+    fill: var(--blue-color);
+    border-color: var(--blue-color);
+  }
+}
