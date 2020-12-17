@@ -839,22 +839,22 @@ a:visited {
 
 /* PORTFOLIO */
 
-.portfolio-container {
+/* .portfolio-container {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* Buttons */
-.portfolio-container .buttons {
+/* .portfolio-container .buttons {
   min-width: 611px;
   margin-bottom: 50px;
   width: 611px;
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
-.portfolio-container .button {
+/* .portfolio-container .button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -875,10 +875,10 @@ a:visited {
   color: var(--white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Cards */
-.portfolio-cards {
+/* .portfolio-cards {
   flex-wrap: wrap;
 }
 
@@ -890,19 +890,19 @@ a:visited {
 .portfolio-cards .item:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition-duration: 250ms;
-}
+} */
 
 /* Cards title */
-.portfolio-cards h2 {
+/* .portfolio-cards h2 {
   color: var(--title-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-}
+} */
 
 /* Cards type */
-.portfolio-cards p {
+/* .portfolio-cards p {
   color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
@@ -959,4 +959,4 @@ a:visited {
 .portfolio-cards a:hover .text,
 .portfolio-cards a:focus .text {
   transform: translateY(0);
-}
+} */
