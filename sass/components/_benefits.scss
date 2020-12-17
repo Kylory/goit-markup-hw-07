@@ -4,6 +4,7 @@
 }
 
 .benefits-content {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -16,6 +17,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
+  color: var(--title-color);
   text-transform: uppercase;
 }
 
@@ -23,6 +25,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--text-color);
 }
 
 /* Icons in benefits */

@@ -1,3 +1,7 @@
+.hero .container {
+  max-width: 696px;
+}
+
 .hero {
   display: flex;
   text-align: center;
@@ -17,20 +21,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
 
-  .container {
-    max-width: 696px;
-  }
-
-  &-title {
-    margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    color: var(--white-color);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
+.hero-title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white-color);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .order-button {
@@ -54,5 +54,6 @@
   &:hover,
   &:focus {
     cursor: pointer;
+    background-color: #167ed3;
   }
 }

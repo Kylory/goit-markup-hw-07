@@ -1,21 +1,26 @@
 .logo {
-  color: var(--blue-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  &-studio-header {
-    color: #000000;
-  }
-
-  &-studio-footer {
-    color: var(--white-color);
-  }
+  color: var(--blue-color);
 }
 
-.nav .logo {
+.header .logo {
   margin-right: 94px;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.footer .logo {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.logo-studio-header {
+  color: #000000;
+}
+
+.logo-studio-footer {
+  color: var(--white-color);
 }

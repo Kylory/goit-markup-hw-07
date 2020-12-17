@@ -1,20 +1,22 @@
-.our-work {
-  text-align: center;
+.our-work .container {
+  padding-bottom: 94px;
+}
 
-  .container {
-    padding-bottom: 94px;
-  }
-
-  .item {
-    position: relative;
-  }
+.our-work .item {
+  position: relative;
 }
 
 .work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-color);
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .work-photo {
+  display: flex;
   justify-content: space-between;
 }
 

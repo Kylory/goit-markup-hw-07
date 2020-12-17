@@ -1,11 +1,11 @@
 @import "./utils/variables";
-@import "./utils/temp";
 @import "./base/global-utils";
-@import "./base/universal-container";
 @import "./utils/visually-hidden";
 
-@import "./components/logo";
 @import "./components/header";
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/contacts";
 @import "./components/hero";
 @import "./components/order-form\(modal-window\)";
 @import "./components/benefits";
@@ -13,4 +13,4 @@
 @import "./components/team";
 @import "./components/clients";
 @import "./components/footer";
-@import "./components/portfolio"
+@import "./components/portfolio";

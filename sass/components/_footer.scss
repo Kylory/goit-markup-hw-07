@@ -1,15 +1,10 @@
 .footer {
   height: 252px;
   background-color: #2f303a;
+}
 
-  .container {
-    display: flex;
-  }
-
-  .logo {
-    margin-bottom: 20px;
-    display: block;
-  }
+.footer .container {
+  display: flex;
 }
 
 .foorer-all-contacts {
@@ -77,11 +72,11 @@
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--white-color);
   transition: background-color 250ms var(--cubic-function);
-}
 
-.social-links-footer a:hover,
-.social-links-footer a:focus {
-  background-color: var(--blue-color);
+  &:hover,
+  &:focus {
+    background-color: var(--blue-color);
+  }
 }
 
 /* Subscribe form */
@@ -142,6 +137,11 @@
   align-items: center;
 
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: #167ed3;
+  }
 }
 
 .icon-send {
