@@ -56,8 +56,6 @@
 
 .social-links-footer .links-list {
   display: flex;
-  // justify-content: space-between;
-  // align-items: center;
 }
 
 .links-list .item:not(:last-child) {
@@ -83,11 +81,9 @@
 
 /* Subscribe form */
 .subscribe {
-  width: 570px;
-  height: 86px;
   margin-left: 93px;
-  margin-top: 72px;
-  margin-bottom: 94px;
+  padding-top: 72px;
+  padding-bottom: 94px;
 }
 
 .subscribe .title {
@@ -109,6 +105,7 @@
 .form .email {
   width: 358px;
   height: 50px;
+  margin-right: 12px;
   padding: 15px 16px;
   font-weight: 400;
   line-height: 1.25;
