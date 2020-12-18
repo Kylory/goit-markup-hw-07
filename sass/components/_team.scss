@@ -51,12 +51,14 @@
 .team-cards .social-links {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 206px;
-  height: 44px;
+  justify-content: center;
   margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.social-links .link-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* Icons in team */

@@ -647,14 +647,16 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 206px;
-  height: 44px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.social-links .link-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* Icons in team */
@@ -739,8 +741,8 @@ svg {
 }
 
 .foorer-all-contacts {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .location {
@@ -772,11 +774,9 @@ svg {
 
 /* social-links-footer */
 .social-links-footer {
-  width: 206px;
-  height: 80px;
   margin-left: 70px;
-  margin-top: 72px;
-  margin-bottom: 100px;
+  padding-top: 72px;
+  padding-bottom: 100px;
 }
 
 .social-links-footer .title {
@@ -791,12 +791,10 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.links-list .item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-links-footer a {
