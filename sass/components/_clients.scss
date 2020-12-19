@@ -25,12 +25,11 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
-  transition: fill 250ms var(--cubic-function),
-    border-color 250ms var(--cubic-function);
+  transition: fill 250ms $cubic-function, border-color 250ms $cubic-function;
 
   &:hover,
   &:focus {
-    fill: var(--blue-color);
-    border-color: var(--blue-color);
+    fill: $blue-color;
+    border-color: $blue-color;
   }
 }

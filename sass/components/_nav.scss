@@ -9,14 +9,14 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: block;
-  color: var(--title-color);
+  color: $title-color;
   padding-top: 32px;
   padding-bottom: 32px;
-  transition: color 250ms var(--cubic-function);
+  transition: color 250ms $cubic-function;
 
   &:hover,
   &:focus {
-    color: var(--blue-color);
+    color: $blue-color;
   }
 }
 
@@ -29,7 +29,7 @@
 }
 
 .active-page {
-  color: var(--blue-color);
+  color: $blue-color;
   position: relative;
 
   &::after {

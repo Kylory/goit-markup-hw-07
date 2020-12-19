@@ -28,7 +28,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: var(--white-color);
+  color: $white-color;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -36,8 +36,8 @@
 .order-button {
   display: inline-block;
   padding: 10px 32px;
-  background-color: var(--blue-color);
-  color: var(--white-color);
+  background-color: $blue-color;
+  color: $white-color;
   text-decoration: none;
   border-radius: 4px;
   min-width: 200px;
@@ -47,13 +47,13 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--white-color);
-  transition: color 250ms var(--cubic-function),
-    background-color 250ms var(--cubic-function);
+  color: $white-color;
+  transition: color 250ms $cubic-function,
+    background-color 250ms $cubic-function;
 
   &:hover,
   &:focus {
     cursor: pointer;
-    background-color: #167ed3;
+    background-color: $button-hover-color;
   }
 }

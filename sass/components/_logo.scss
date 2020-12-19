@@ -3,7 +3,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--blue-color);
+  color: $blue-color;
 }
 
 .header .logo {
@@ -22,5 +22,5 @@
 }
 
 .logo-studio-footer {
-  color: var(--white-color);
+  color: $white-color;
 }
